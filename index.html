@@ -1,207 +1,79 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles/style.css"/>
-<title>GAMEVERSAL</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-	body{
-background-color:#282a36;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
 }
-*{
-  font-family:heebo;
+
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
 }
-input{
-  height:0;
-  display:none;
+
+.topnav #myLinks {
+  display: none;
 }
-input+label{
-  position:fixed;
-  top:0;
-  left:0;
-  width:0;
-  height:0
+
+.topnav a {
+  color: white;
+  padding: 1% 6%;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
-input:checked+label{
-  width:100vw;
-  height:100vh
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top:6%;
 }
-#menu{
-  position:fixed;
-  top:6vw; 
-  right:-52vw;
-  width:36vw;
-  height:90vh;
-  padding:5vh 8vw;
-  box-shadow:0 0 0 136vw #0000;
-  background:radial-gradient(at 99% 99%,#112,#223);
-  transition:.3s;
-  z-index:10;
-}
-#menu label,#menu li{
-  padding:1vw 2vw;
-  font-size:5vw;
-  color:#fff;
-  margin:2vh 2vw;
-  border-left:3px solid #ccc;
-  font-size:8vw;
-}
-#menu ul{
-  margin:0;
-  padding:0 2vw;
-}
-#menu div{
-  margin-top:3vw;
-}
-#menu div label,#menu li{
-  border-left:none;
-  color:#ddd;
-  list-style-type:none;
-  margin:.5vw 0;
-  font-size:6vw;
-}
-input:checked+label+#menu{
-  right:0vw;
-  box-shadow:0 0 0 136vw #0008,0 0 2vw #000
-}
-#gametype+div{
-  overflow:hidden;
-  max-height:0vh;
-}
-#gametype:checked+div{
-  max-height:99vh;
-}
-nav{
-  position:fixed;
-  top:0;
-  left:0;
-  background:#111;
-  width:100%;
-  height: 10%;
-  padding-top:2vw;
-  display:flex;
-  justify-content:space-between;
-}
-nav{
-z-index:20;
-}
-nav h1{
-  color:#cdb;
-  color:#ccf;
-  margin:2vw 3vw;
-      text-shadow: 2px 2px 3px #6272a4;
-}
-#menuIcon{
-  width:2vw;
-  height:2vw;
-  position:fixed;
-  top:7;
-  right:0;
-  padding:2vw 3vw
-}
-#menuIcon div{
-  width:99%;
-  height:20%;
-  margin:20% 0;
-  background:#fff;
-  border-radius:50px;
-  box-shadow:0 1vw 1vw #000;
-  z-index:100px;
-}
-img{
-  border-radius:66% 100% 66% 100% / 100% 66% 100% 66%;
-  transform:rotate(-15deg);
-  width:6vh;
-}
-h2{
-  font-size:8vw;
-  margin:5vw 3vw;
-}
-.gamesct{
-display:flex;
-gap:7.5vh;
-margin:0 2vw;
-	}
-#parent{
-}
-.game{
-  display:grid;
-  place-items:center;
-  text-align:center;
-  width:20vw;
-}
-.game p{
-  margin:8px 0;
-  font-size:5vw;
-}
-a{
-  color:#000;
-  text-decoration:none;
-  outline:none;
-  z-index:1;
+
+
+.active {
+  background-color: black;
+  color: white;
 }
 </style>
 </head>
 <body>
 
-<!--menu-->
-<input type='checkbox' id='menuBtn'>
-<label for='menuBtn'></label>
-<div id='menu'>
-<div style='height:2vw'></div>
-<label for='gametype' name='list'>games</label>
-<input type='checkbox' id='gametype'>
-<div>
-<ul>
-<a href="#puzzle-games"><li><label for=''>puzzle</label></li></a>
-<li><label for=''>endless</label></li>
-<li><label for=''>fighter</label></li>
-<li><label for=''>math</label></li>
-<li><label for=''>pc</label></li>
-<li><label for=''>puzzle</label></li>
-<li><label for=''>rhythm</label></li>
-<li><label for=''>spelling</label></li>
-<li><label for=''>winter</label></li>
-</ul>
-</div>
-</div>
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
 
-<!--header-->
-<nav>
-  <a href="index.html"><h1 class="h1">GAMEVERSAL</h1></a>
-  <label for='menuBtn'>
-    <div id='menuIcon'>
-      <div></div><div></div><div></div>
-    </div>
-  </label>
-</nav>
-<div style='height:18vw'></div>
-<h2>Our offered games</h2>
-
-<!--games list-->
-<div id="parent"> 
-		<h3>Puzzles</h3>
-<div id="puzzle-games" class="gamesct">
-  <a href="https://aryan0-1maurya.github.io/sokoban-game/">
-    <div class="game">
-      <img src="https://imgs.search.brave.com/lowyaYJKZ28rJBZ8jfVBXvfwMgj7vXkq1IHPGHTIJZs/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sYWdn/ZWQuY29tL2ltZ3Mv/ZmM3ZDBiMTYtODA2/MC00Mjk0LTA3Zjgt/NTMwNmNlNDQzMTAw/L3c9NDAw.jpeg">
-      <p class="gamename">sokoban game</p>
-      </div>
-  </a>
-  <a href="">
-    <div class="game">
-      <img class="gameimg" src="">
-      <p class="gamename">Detective game</p>
-    </div>
-  </a>
-    <a href="">
-    <div class="game">
-      <img class="gameimg" src="">
-      <p class="gamename">Survival game</p>
-    </div>
-  </a>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <h1><a href="#home" class="active">Gameversal</a></h1>
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
   </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
 </body>
 </html>
