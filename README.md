@@ -16,4 +16,4 @@ NFsupercars
 
 head of marketing and advertising department
 
-<a href="https://oisemusiemen.github.io/gameversal/"> visit site</a>
+<a href="https://oisemusiemen.github.io/gameversal/" target="blank"> visit site</a>
