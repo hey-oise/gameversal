@@ -6,7 +6,7 @@ who is the founder/ceo of gameversal?
 
 The founder/ceo of gameversal is Oisemusiemen Giwa-okugbe
 
-Other co-founders like...
+And other co-founders like...
 
 Aryan Maurya
 
