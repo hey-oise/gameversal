@@ -57,3 +57,17 @@ body {
 .game-cat-child{
   width: 25px;
 }
+.searchbar{
+  background-color: #ffffff00;
+  width: 85%;
+  height:50px;
+  border-style: solid;
+  border-radius :10px ;
+  display :flex;
+  margin: auto;
+  margin-top: 450px;
+  outline: none;
+  color:white ;
+  text-align: center;
+  margin-bottom: 170px ;
+}
