@@ -1,1 +1,1 @@
-<a href="https://oisemusiemen.github.io/gameversal/" target="blank"> visit site</a>
+<a href="https://gameversal.pages.dev" target="blank"> visit site</a>
