@@ -152,8 +152,9 @@ box-shadow:black ;
 margin-top: 1200px;
   }
   .search {
-    width: 290px;
+    width: 300px;
     margin-left: 0px;
+    margin-right: 2px;
  margin-top: 100px;
  margin-bottom: 0%;
   }
