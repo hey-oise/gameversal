@@ -115,11 +115,10 @@ outline:none;
   text-align: center;
   padding-bottom: 38px;
    transition: 1s;
-
+box-shadow:black ;
 }
 
 .game-div:hover{
-  height: 230px;
  transform: scale(1.1);
 
 }
@@ -127,9 +126,6 @@ outline:none;
   height: 150px;
   width: 300px;
   border-radius: 8px;
-}
-.game-image:hover{
-
 }
 
 .check-out-btn {
