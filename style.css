@@ -158,16 +158,17 @@ body {
     margin-top: 10px;
     font-weight: 20px;
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     body {
         width: 260px;
         margin-top: 1200px;
     }
     .search {
-        width: 115%;
+        width: 75vw;
+        margin: auto;
         margin-left: 0px;
         margin-right: 1px;
-        margin-top: 1300px;
+        margin-top: 1200px;
         margin-bottom: 0%;
     }
 .game-div{
