@@ -48,6 +48,36 @@ body {
     position: fixed;
     bottom: 10px;
 }
+.more-popup {
+    width: 10px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    margin-left: 0px;
+    bottom: -410px;
+    position: relative;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0);
+    transition: 500ms;
+    *{
+    color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+}
+}
+.more-popup:hover{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    padding: 10px;
+    background-color: rgb(40, 45, 73);
+    *{
+        color: rgba(255, 255, 255, 0.658);
+    }
+}
+
 #morebtn:hover {
     font-size: 30px;
     color: rgba(190, 194, 201, 0.582);
