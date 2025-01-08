@@ -188,6 +188,7 @@ body {
     margin-top: 10px;
     font-weight: 20px;
 }
+
 @media (max-width: 800px) {
     body {
         width: 260px;
@@ -211,4 +212,27 @@ body {
         margin-left: 0px;
         margin-right: 1px;
     }
+}
+.home-team{
+    position: fixed;
+    font-size: 30px;
+    color: rgb(73, 36, 236);
+    cursor: pointer;
+    transition: 500ms;
+    top: 1%;
+}
+.home-team:hover{
+    color: rgb(76, 20, 231);
+}
+.profile-pic{
+    border-radius: 1000px;
+    width: 300px;
+}
+.team-parent{
+    margin: auto;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 200px;
+    gap: 10vw;
 }
