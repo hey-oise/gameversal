@@ -235,4 +235,9 @@ body {
     grid-template-columns: auto auto auto;
     margin-top: 200px;
     gap: 10vw;
+    text-align: center;
+    color: rgb(180, 173, 173);
+}
+.title{
+    color: rgba(180, 173, 173, 0.438);
 }
