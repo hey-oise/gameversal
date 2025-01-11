@@ -241,3 +241,12 @@ body {
 .title{
     color: rgba(180, 173, 173, 0.438);
 }
+.sociols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.sociols-img{
+        width: 30px;    
+}
