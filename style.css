@@ -188,22 +188,48 @@ body {
     margin-top: 10px;
     font-weight: 20px;
 }
-
+.ads{
+    background-color: white;
+    width: 750px;
+    height: 65px;
+    display: flex;
+    position: fixed;
+    bottom: 1.5%;
+    z-index: 10000;
+    color: black;
+    border-radius: 20px;
+    animation: ads alternate ease-in-out 2s infinite;
+}
+@keyframes ads {
+  from{
+transform: scale(1);
+  } 
+  to{
+transform: scale(1.1);
+  } 
+}
+.ads-text{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 600px;
+}
 @media (max-width: 800px) {
     body {
         width: 260px;
-        margin-top: 1200px;
+        margin-top: 1400px;
     }
     .search {
         width: 75vw;
         margin: auto;
-        margin-left: 0px;
+        margin-left: 80px;
         margin-right: 1px;
-        margin-top: 1200px;
+        margin-top: 1500px;
         margin-bottom: 0%;
     }
 .game-div{
-    left: 0px;
+    left: -10px;
+    margin-left: 80;
 }
     .game-parent {
         width: 2px;
@@ -212,7 +238,11 @@ body {
         margin-left: 0px;
         margin-right: 1px;
     }
+    .ads{
+        width: 300px;
+    }
 }
+/* teams page styles */
 .home-team{
     position: fixed;
     font-size: 30px;
