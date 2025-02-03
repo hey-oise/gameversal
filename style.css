@@ -195,6 +195,7 @@ body {
   color: black;
   border-radius: 20px;
   animation: ads alternate ease-in-out 2s infinite;
+  justify-content: center;
 }
 @keyframes ads {
   from {
@@ -204,17 +205,31 @@ body {
     transform: scale(1.1);
   }
 }
-.ads-text {
-  position: relative;
-  color: black;
-  text-align: center;
-  top: 10px;
-  left: 600px;
+.ads-txt {
+  position: absolute;
+  display: flex;
+  max-height: 20px;
+  font-size: 14;
+  left: 200px;
+  width: 400px;
 }
 .ads-btn {
+  background-color: rgb(46, 150, 42);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  left: 630px;
+  transition: 1s;
+}
+.ads-btn:hover {
   color: black;
-  text-decoration: none;
-  text-wrap: ;
+  background-color: rgb(26, 144, 199);
 }
 @media (max-width: 800px) {
   body {
