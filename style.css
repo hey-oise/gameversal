@@ -1,5 +1,5 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 body {
   background-color: rgb(2, 15, 43);
@@ -194,11 +194,19 @@ body {
   display: flex;
   position: fixed;
   bottom: 1.5%;
-  z-index: 10000;
   color: black;
   border-radius: 20px;
   animation: ads alternate ease-in-out 2s infinite;
   justify-content: center;
+  z-index: 10;
+}
+.ads-img {
+  width: 100px;
+  height: 65px;
+  left: 0px;
+  position: absolute;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 @keyframes ads {
   from {
@@ -213,8 +221,8 @@ body {
   display: flex;
   max-height: 20px;
   font-size: 14;
-  left: 200px;
-  width: 400px;
+  left: 120px;
+  width: 450px;
 }
 .ads-btn {
   background-color: rgb(46, 150, 42);
